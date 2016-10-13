@@ -1,9 +1,9 @@
-var express = require("express");
-var app = express();
+const express = require("express");
+const app = express();
 app.set("view engine", "ejs");
-var PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8080;
 
-var urlDatabase = {
+const urlDatabase = {
   "b2xVn2": "http://www.lighthouselabs.ca",
   "9sm5xK": "http://www.google.com"
 };

@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <title>SnipSnip</title>
+</head>
 <body>
   <header>
         <% include ./partials/_header %>
   </header>
-  <ul> <% for(var key in urls) { %>
-      <li> <%= link_to(key, urls[key]) %> </li>
-      <% }; %>
+  <h3>SnipSnip that URL!</h3>
+  <ul>
+    <% for(var key in urls) { %>
+      <li>
+        <%= key %>
+        <% }; %>
+      </li>
   </ul>
+
     <p>more fun stuff, party on wayne!</p>
+
 </body>
 </html>
-<!--   <ul> <% for(var key in urls) { %>
-      <li> <%= urls[key] : .key %> </li>
-      <% }; %>
-  </ul> -->
